@@ -54,6 +54,9 @@ img {
 }
 
 /* HEADER CARD BLU */
+.first-cards-blu {
+    margin-top: 3rem;
+}
 
 .card-blu {
     background-color: rgba(181,221,255,255);
@@ -61,7 +64,7 @@ img {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 2rem 0;
 }
 
 .card-blu h3 {
@@ -79,7 +82,7 @@ img {
     margin-bottom: -2rem;
 }
 
-.btn-blue {
+.btn-blu {
     background-color: rgba(0,132,253,255);
     width: 11rem;
     padding: .5rem;
@@ -89,10 +92,20 @@ img {
     letter-spacing: 0.1rem;
 }
 
-.card-blu h3, p, a {
+.card-blu h3, .first-p {
     margin-bottom: 2rem;
 }
 
+.first-cards-blu i:not(.fa-apple) {
+    font-size: 4.5rem;
+    color: rgba(0,132,253,255);
+    margin-bottom: 2rem;
+}
+
+.card-blu:not(.card-phone) { 
+    text-align: center;
+}
+    
 /* MEDIA QUESRIES */
 
 @media screen and (min-width: 811px) {
