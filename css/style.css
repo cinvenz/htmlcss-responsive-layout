@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    
 
 }
 
@@ -24,9 +25,11 @@ html {
     cursor: pointer;
 }
 
+img {
+    max-width: 100%;
+}
 
-
-/* navbar */
+/* NAVBAR */
 .nav-top {
     background-color: rgba(0,132,253,255);
     height: 4.7rem;
@@ -49,6 +52,48 @@ html {
     color: white;
     font-size: 1.5rem;
 }
+
+/* HEADER CARD BLU */
+
+.card-blu {
+    background-color: rgba(181,221,255,255);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.card-blu h3 {
+    color: rgba(0,132,253,255);
+    font-size: 1.3rem;
+}
+
+.card-blu p {
+    line-height: 1.7rem;
+}
+
+.phone {
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+.btn-blue {
+    background-color: rgba(0,132,253,255);
+    width: 11rem;
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.card-blu h3, p, a {
+    margin-bottom: 2rem;
+}
+
+/* MEDIA QUESRIES */
 
 @media screen and (min-width: 811px) {
     
