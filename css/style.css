@@ -7,7 +7,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     line-height: 2rem;
-    
+
 
 }
 
@@ -62,7 +62,7 @@ img {
 .card-blu-flex {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .card-blu {
@@ -108,7 +108,7 @@ img {
     margin-bottom: 2rem;
 }
 
-.card-blu:not(.card-phone) { 
+.card-blu:not(.card-phone) {
     text-align: center;
 }
 
@@ -145,7 +145,7 @@ img {
 
 .testimonials {
     text-align: center;
-}    
+}
 
 .testimonials h2 {
     color: rgba(151,146,228,255);
@@ -184,7 +184,7 @@ img {
     color: white;
     text-align: center;
     padding-top: 2rem;
-    
+
 }
 
 .white-card {
@@ -233,11 +233,6 @@ img {
   object-fit: cover;
 }
 
-.about-us a {
-    color: white;
-    background-color: rgba(151,146,228,255);
-    padding: 0 1rem;
-}
 
 .immagine-linkedin {
     position: relative;
@@ -251,10 +246,56 @@ img {
     left: 8.3rem;
 }
 
+.about-us a {
+    color: white;
+    background-color: rgba(151,146,228,255);
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+/* sesto container transparent pricing */
+.transparent-pricing {
+    background-color: rgba(151,146,228,255);
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.transparent-pricing h2:first-child {
+    color: rgba(181,178,235,255);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    padding-top: 4rem;
+}
+
+.transparent-pricing h2:nth-child(3) {
+    color: rgba(253,193,95,255);
+    font-size: 3.5rem;
+}
+
+.transparent-pricing a {
+    color: white;
+}
+
+.transparent-pricing .get-started {
+    color: rgba(151,146,228,255);
+    background-color: white;
+    padding: 1rem 4rem;
+    text-align: center;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+
+.transparent-pricing i {
+    font-size: 0.25rem;
+    vertical-align: middle;
+}
+
 /* MEDIA QUESRIES */
 
 @media screen and (min-width: 811px) {
-    
+
     .nav-top ul {
         list-style: none;
         display: flex;
@@ -262,14 +303,14 @@ img {
         height: 100%;
         gap: 1rem;
     }
-    
+
     .nav-top li {
         display: flex;
         align-items: center;
         height: 100%;
-    
+
     }
-    
+
     .nav-top .nav-link {
         display: flex;
         align-items: center;
@@ -287,18 +328,18 @@ img {
     .nav-top .nav-link:hover {
         background-color: aquamarine;
     }
-    
+
     .nav-top .btn {
         background-color: white;
         padding: .5rem;
     }
-    
+
     .nav-top .btn:hover {
         background-color: lightgray;
     }
-    
+
     .hamburger {
         display: none;
     }
-    
+
 }
