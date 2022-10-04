@@ -16,7 +16,11 @@ html {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
-    margin-top: 3rem;
+    
+   
+}
+
+.container:not(.transparent-pricing) {
     margin-bottom: 3rem;
 }
 
@@ -62,6 +66,7 @@ img {
 .card-blu-flex {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 3rem;
 
 }
 
@@ -259,6 +264,11 @@ img {
     color: white;
     text-align: center;
     padding-bottom: 3rem;
+    
+}
+
+.transparent-pricing p {
+    font-size: 0.9rem;
 }
 
 .transparent-pricing h2:first-child {
@@ -290,6 +300,26 @@ img {
 .transparent-pricing i {
     font-size: 0.25rem;
     vertical-align: middle;
+}
+
+/* inizio footer */
+
+.footer {
+    font-size: 0.85rem;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    color: rgba(134,130,199,255);
+}
+
+footer p:first-child {
+    padding-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 /* MEDIA QUESRIES */
