@@ -90,7 +90,7 @@ img {
 .phone {
     width: 20rem;
     margin-top: 2rem;
-    margin-bottom: -3rem;
+    margin-bottom: -2rem;
 }
 
 .btn-blu {
@@ -330,7 +330,7 @@ footer p:first-child {
 }
 
 /* MEDIA QUESRIES */
-@media screen and (max-width: 810px) and (min-width: 600px) {
+@media screen and (min-width: 810px) {
     /* media secondo container */
     .card-blu-flex {
         gap: 1rem;
@@ -342,11 +342,11 @@ footer p:first-child {
     }
 
     .card-blu.card-phone {
-        flex-basis: 500px;
+        flex-basis: 64%;
     }
 
     .card-blu {
-        flex: 1 1 240px;
+        flex: 1 1 30%;
     }
 
     h2 {
@@ -449,23 +449,23 @@ footer p:first-child {
     /* primo container card blu desktop */
     .card-blu-flex {
         gap: 2rem;
+        
     }
 
-    .testo-phone {
+ .testo-phone {
         display: flex;
         flex-direction: column;
-        flex-basis: 65%;
     }
 
     .card-blu {
         
-        flex-basis: 335px;
+       flex: 1 1 30%;
     }
 
     .card-blu.card-phone {
         display: flex;
         flex-direction: row;
-        flex-basis: 700px;
+        flex-basis: 64%px;
     }
 
     /* secondo container planning desktop */
