@@ -20,7 +20,7 @@ html {
 
 }
 
-.container:not(.transparent-pricing) {
+.container:not(.transparent-pricing, .footer) {
     margin-bottom: 3rem;
 }
 
@@ -389,8 +389,11 @@ footer p:first-child {
     }
 }
 
-
+/* MEDIA DESKTOP */
 @media screen and (min-width: 811px) {
+    h2 {
+        font-size: 2.5rem;
+    }
 
     .nav-top ul {
         list-style: none;
@@ -438,7 +441,7 @@ footer p:first-child {
         display: none;
     }
 
-    /* primo container card blu */
+    /* primo container card blu desktop */
     .card-blu-flex {
         gap: 2rem;
     }
@@ -460,7 +463,7 @@ footer p:first-child {
         flex-basis: 700px;
     }
 
-    /* secondo container planning */
+    /* secondo container planning desktop */
     .container.strategic-planning {
         min-width: 100%;
     }
@@ -488,4 +491,32 @@ footer p:first-child {
         align-items: center;
         margin-top: 12rem;
     }
-}
+
+    /* media terzo container desktop */
+    .purple-cards {
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+   /* media quarto container desktop */
+    .white-cards {
+        max-width: 100%;
+    }
+
+    .container-carte-bianche {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        max-width: 1120px;
+        margin: auto;
+    }
+
+    .white-card {
+        flex: 1 1 300px;
+    }
+
+    /* quinto container desktop */
+    
+
+}   
