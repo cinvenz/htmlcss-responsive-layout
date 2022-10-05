@@ -16,8 +16,8 @@ html {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
-    
-   
+
+
 }
 
 .container:not(.transparent-pricing) {
@@ -90,7 +90,7 @@ img {
 .phone {
     width: 20rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
 }
 
 .btn-blu {
@@ -122,6 +122,7 @@ img {
 .strategic-planning {
     background-color: rgba(151,146,228,255);
     padding-bottom: 4rem;
+    color: white;
 }
 
 .app-development {
@@ -264,7 +265,7 @@ img {
     color: white;
     text-align: center;
     padding-bottom: 3rem;
-    
+
 }
 
 .transparent-pricing p {
@@ -311,6 +312,7 @@ img {
     text-align: center;
     line-height: 1rem;
     padding-bottom: 2rem;
+
 }
 
 footer a {
@@ -323,6 +325,64 @@ footer p:first-child {
 }
 
 /* MEDIA QUESRIES */
+@media screen and (min-width: 810px) {
+    /* media secondo container */
+    .card-blu-flex {
+        gap: 1rem;
+    }
+
+    .card-blu.card-phone {
+        flex-basis: 500px;
+    }
+
+    .card-blu {
+        flex: 1 1 240px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* media terzo container */
+    .purple-cards {
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* media quarto container */
+    .container-carte-bianche {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .white-card {
+        flex-basis: 48.8%;
+    }
+
+    /* quinto container about us */
+    .div-about-us {
+        max-width: 700px;
+        display: flex;
+        gap: 3rem;
+        margin: auto;
+    }
+
+    /* media quinto container  */
+
+    .div-transparent-pricing {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    /* media footer */
+    .div-footer {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
 
 @media screen and (min-width: 811px) {
 
