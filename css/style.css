@@ -168,11 +168,11 @@ img {
 
 .purple-cards img {
   width: 200px;
-  height: 215px;
+  height: 200px;
   display: block;
   margin: auto;
   border-radius: 50%;
-  padding: 2rem 1.5rem;
+  /* padding: 2rem 1.5rem; */
   object-fit: cover;
 }
 
@@ -226,6 +226,10 @@ img {
     color: rgba(151,146,228,255);
 }
 
+.about-us h3 {
+    color: rgba(151,146,228,255);
+}
+
 .about-us h2:first-child {
     font-size: 2.5rem;
     padding-top: 2rem;
@@ -233,10 +237,10 @@ img {
 
 .about-us img {
   width: 200px;
-  height: 215px;
+  /* height: 215px; */
   display: block;
   border-radius: 50%;
-  padding: 2rem 1.5rem;
+  /* padding: 2rem 1.5rem; */
   object-fit: cover;
 }
 
@@ -247,10 +251,10 @@ img {
 
 .virgolette-img {
     color: rgba(151,146,228,255);
-    font-size: 3.8rem;
+    font-size: 5rem;
     position: absolute;
-    top: 1.5rem;
-    left: 8.3rem;
+    top: 0;
+    left: 8.5rem;
 }
 
 .about-us a {
@@ -354,6 +358,7 @@ footer p:first-child {
         display: flex;
         text-align: left;
         align-items: center;
+        gap: 2rem;
     }
 
     /* media quarto container */
@@ -375,7 +380,7 @@ footer p:first-child {
         margin: auto;
     }
 
-    /* media quinto container  */
+    /* media sesto container  */
 
     .div-transparent-pricing {
         max-width: 600px;
@@ -497,6 +502,7 @@ footer p:first-child {
         display: flex;
         text-align: left;
         align-items: center;
+        gap: 2rem;
     }
 
    /* media quarto container desktop */
@@ -517,6 +523,31 @@ footer p:first-child {
     }
 
     /* quinto container desktop */
-    
+    .div-about-us {
+        /* max-width: 700px; */
+        display: flex;
+        gap: 3rem;
+        margin: auto;
+    }
 
+    .linkedin-img-testo {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* sesto container desktop */
+    .transparent-pricing {
+        max-width: 100%;
+    }
+
+    /* footer desktop */
+    .footer {
+        max-width: 100%;
+    }
+
+    .div-footer {
+        max-width: 600px;
+        margin: auto;
+    }
 }   
